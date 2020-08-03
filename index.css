@@ -3,6 +3,7 @@
 .nav-bar{
     height: 60px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -14,14 +15,81 @@
 .logo-img{
     height:60px;
 }
+/* hamberger */
+.container-hambuger {
+    /* display: inline-block;
+    cursor: pointer;
+    align-items: flex-end; */
+    margin: 0px 15px
+}
+  
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+  
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+/* end hamberger */
+.buttons{
+    display: none;
+}
+
+.menu-bar{
+    display: none;
+}
+
+
 
 .header{
     width: 100%;
     align-items: center;
 }
 
+.welcom-ment{
+    font-size: 50px;
+    margin: 20px 0px;
+    font-weight: 800;
+    text-align: center;
+}
+
 .header-img{
     width: 100%;
+}
+
+.program-ment{
+    margin: 10px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    width: 80%;
+}
+
+.program-title{
+    margin: 10px;
+    width:80%;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.program-dancer{
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 40px;
+    width: 80%;
 }
 
 .program-dancer-list{

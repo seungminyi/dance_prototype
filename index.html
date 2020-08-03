@@ -6,9 +6,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
 </head>
+<script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+</script>
 <body>
     <nav class="nav-bar">
         <h1 class="logo"><img class="logo-img" src="./img/logo.svg" alt="HIMCHAN Dance"></h1>
+
+        <div class="container-hambuger" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
         <ul class="menu-bar">
             <li>Program</li>
             <li>STYLE</li>
@@ -18,7 +30,7 @@
             <li>BLOG</li>
             <li>PARTY</li>
         </ul>
-        <div>
+        <div class="buttons">
             <button>LOGIN</button>
             <button>SIGNUP</button>
         </div>
@@ -26,13 +38,13 @@
 
     <div class="container">
         <div class="header">
-            <h2 class="welcom-ment">Reach Your Dance Goals</h2>
+            <h2 class="welcom-ment">Reach Your <br> Dance Goals</h2>
             <img class="header-img" src="./img/header_img.jpg" alt="header_img">
         </div>
 
         <div class="program">
             <h2 class="program-ment">Designed With The Best</h2>
-            <p class=program-title>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laborum incidunt modi sed dolores, facere odit, cupiditate ea maiores placeat debitis adipisci distinctio cumque magni possimus accusantium soluta? Provident, exercitationem?</p>
+            <p class=program-title>Every class and program is thoughtfully designed by dance style pioneers and sought after choreographers.</p>
         
             <h3 class="program-dancer">STYLE PIONEERS</h3>
             <div class="program-dancer-list">
@@ -43,18 +55,28 @@
                 </div>
                 <div class="program-dancer-list-item">
                     <img class="dancer-img" src="./img/dancer_profile.jpg" alt="">
+                    <h3 class="dancer-name">NAME : HIMCHAN</h3>
+                    <h4 class="dancer-skill">MAIN SKILL : URBAN</h4>
                 </div>
                 <div class="program-dancer-list-item">
                     <img class="dancer-img" src="./img/dancer_profile.jpg" alt="">
+                    <h3 class="dancer-name">NAME : HIMCHAN</h3>
+                    <h4 class="dancer-skill">MAIN SKILL : URBAN</h4>
                 </div>
                 <div class="program-dancer-list-item">
                     <img class="dancer-img" src="./img/dancer_profile.jpg" alt="">
+                    <h3 class="dancer-name">NAME : HIMCHAN</h3>
+                    <h4 class="dancer-skill">MAIN SKILL : URBAN</h4>
                 </div>
                 <div class="program-dancer-list-item">
                     <img class="dancer-img" src="./img/dancer_profile.jpg" alt="">
+                    <h3 class="dancer-name">NAME : HIMCHAN</h3>
+                    <h4 class="dancer-skill">MAIN SKILL : URBAN</h4>
                 </div>
                 <div class="program-dancer-list-item">
                     <img class="dancer-img" src="./img/dancer_profile.jpg" alt="">
+                    <h3 class="dancer-name">NAME : HIMCHAN</h3>
+                    <h4 class="dancer-skill">MAIN SKILL : URBAN</h4>
                 </div>
             </div>
         </div>
