@@ -1,0 +1,46 @@
+@import url(./reset.css);
+
+.nav-bar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    align-items: center;
+    height: 60px;
+}
+
+.logo-img{
+    height:60px;
+}
+
+.header{
+    width: 100%;
+    align-items: center;
+}
+
+.header-img{
+    width: 100%;
+}
+
+.program-dancer-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.program-dancer-list-item{
+    align-items: center;
+    width: 48%;
+    margin: 1%;
+}
+
+.dancer-img{
+    width: 100%;
+}
+
+.dancer-name{
+    font-weight: 600;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
