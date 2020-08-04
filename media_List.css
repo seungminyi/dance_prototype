@@ -1,0 +1,138 @@
+@import url(./reset.css);
+
+.nav-bar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    align-items: center;
+    height: 60px;
+}
+
+.logo-img{
+    height:60px;
+}
+/* hamberger */
+.container-hambuger {
+    /* display: inline-block;
+    cursor: pointer;
+    align-items: flex-end; */
+    margin: 0px 25px
+}
+  
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+  
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+/* end hamberger */
+.buttons{
+    display: none;
+}
+
+.menu-bar{
+    display: none;
+}
+
+/* --------------------------------------------- */
+.user_media_title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.media-list-item{
+    display: flex;
+    margin: 20px 20px;
+    border-bottom: solid 1px rgb(0,0,0,0.1);
+    padding-bottom: 20px;
+}
+
+.media-item-thumnail{
+    height: auto;
+    width: auto;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.media-content{
+    margin-left: 10px;
+}
+
+.media-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.media-comment{
+    font-size: 13px;
+    opacity: 0.5;
+    margin-bottom: 3px;
+}
+
+.star-point{
+    color:#be5a0e;
+    font-size: 13px;
+    margin: 0px;
+    height: 13px;
+    white-space: nowrap;
+    display: inline;
+}
+
+.star, .comment-count{
+    display: inline;
+    font-size: 13px;
+}
+
+.comment-count{
+    opacity: 0.5;
+}
+
+.media-info{
+    font-size: 11px;
+    opacity: 0.5;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.sibal{
+    margin-bottom: 10px;
+}
+
+.content-price{
+    font-weight: 600;
+}
+
+.befor_sale{
+    font-size: 13px;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.Best-Content{
+    background-color: rgb(255, 231, 153);
+    font-size: 13px;
+    padding: 2px 6px 2px 6px;
+    display: inline;
+    border-radius: 3px;
+}
