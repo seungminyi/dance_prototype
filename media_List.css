@@ -1,4 +1,9 @@
 @import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
 
 .nav-bar{
     height: 60px;
@@ -10,6 +15,7 @@
 .logo{
     align-items: center;
     height: 60px;
+    margin-top: 15px;
 }
 
 .logo-img{
@@ -53,11 +59,12 @@
 
 /* --------------------------------------------- */
 .user_media_title{
-    font-weight: 700;
+    font-weight: 800;
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 50px;
     margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .media-list-item{
