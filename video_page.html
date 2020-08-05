@@ -5,18 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        window.onload = function(){
-            // var video = document.getElementById('video').play
-            // video.play()
-    
-            var promise = document.getElementById('video').play(); 
-            if (promise !== undefined) {
-                promise.then(_ => {
-                    document.getElementById('video').play();
-                }).catch(error => {
-                    document.getElementById('video').play(); 
-                }); }
-        }
         function videoPlay(){
            var video = document.getElementById('video')
            video.requestFullscreen()
