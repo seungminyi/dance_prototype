@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./video_page.css">
     <script>
         function videoPlay(){
            var video = document.getElementById('video')
@@ -11,23 +12,64 @@
         }
     </script>
     <style>
-        html{
-            background-color: black;
-            height: 100%;
-        }
-        body{
-            align-items: center;
-            justify-content: center;
-            height: 100%;
-        }
-        video{
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-        }
+        
     </style>
 </head>
 <body>
-    <video id="video" src="./media/testmedia.mp4" controls="true" onclick="videoPlay()"></video>
+    <video class="main-video" id="video" src="./media/testmedia.mp4" controls="true" onclick="videoPlay()"></video>
+    <div class="v-list">
+        <div class="v-items">
+            <video src="./media/testmedia.mp4" class="v-item"></video>
+            <h5 class="v-item-title">Leb 01 Lorem ipsum dolor sit.</h5>
+        </div>
+        <div class="v-items">
+            <img src="./img/5.jpg" class="v-item"></img>
+            <h5 class="v-item-title">Leb 02 Lorem, ipsum.</h5>
+        </div>
+        <div class="v-items">
+            <img src="./img/2.jpeg" class="v-item"></img>
+            <h5 class="v-item-title">Leb 03 Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+        </div>
+        <div class="v-items">
+            <img src="./img/4.jpeg" class="v-item"></img>
+            <h5 class="v-item-title">Leb 04 Lorem ipsum dolor sit..</h5>
+        </div>
+        <div class="v-items">
+            <img src="./img/3.jpeg" class="v-item"></img>
+            <h5 class="v-item-title">Leb 05 Lorem, ipsum dolor.</h5>
+        </div>
+        <div class="v-items">
+            <img src="./img/5.jpg" class="v-item"></img>
+            <h5 class="v-item-title">Leb 02 Lorem, ipsum.</h5>
+        </div>
+        <div class="v-items">
+            <img src="./img/2.jpeg" class="v-item"></img>
+            <h5 class="v-item-title">Leb 03 Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+        </div>
+        <div class="v-items">
+            <img src="./img/4.jpeg" class="v-item"></img>
+            <h5 class="v-item-title">Leb 04 Lorem ipsum dolor sit..</h5>
+        </div>
+        <div class="v-items">
+            <img src="./img/3.jpeg" class="v-item"></img>
+            <h5 class="v-item-title">Leb 05 Lorem, ipsum dolor.</h5>
+        </div>
+        <div class="v-items">
+            <img src="./img/5.jpg" class="v-item"></img>
+            <h5 class="v-item-title">Leb 02 Lorem, ipsum.</h5>
+        </div>
+        <div class="v-items">
+            <img src="./img/2.jpeg" class="v-item"></img>
+            <h5 class="v-item-title">Leb 03 Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+        </div>
+        <div class="v-items">
+            <img src="./img/4.jpeg" class="v-item"></img>
+            <h5 class="v-item-title">Leb 04 Lorem ipsum dolor sit..</h5>
+        </div>
+        <div class="v-items">
+            <img src="./img/3.jpeg" class="v-item"></img>
+            <h5 class="v-item-title">Leb 05 Lorem, ipsum dolor.</h5>
+        </div>
+    </div>
 </body>
 </html>
