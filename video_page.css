@@ -35,3 +35,7 @@ body{
     margin-left: 15px;
     width: 60%;
 }
+
+.iframe > video{
+    margin: 0px;
+}
